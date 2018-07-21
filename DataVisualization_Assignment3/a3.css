@@ -1,0 +1,23 @@
+﻿body {
+}
+.blue{          /*Class for setting the color of text blue*/
+    color:blue;
+    font-weight: normal;
+}
+
+#course{
+    font-style:italic;
+    font-weight: normal;
+}
+
+#assn2{            /*Setting the color of Assignment 1 as green by using its id*/
+    color:green;
+    font-weight: normal;
+}
+
+
+
+#map {
+  width: 960px;
+  height: 500px;
+}

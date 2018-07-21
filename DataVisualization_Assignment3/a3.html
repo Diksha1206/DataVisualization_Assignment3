@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="jquery-1.10.2.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v0.3.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.4/leaflet.js"></script>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.4/leaflet.css"/>
+    <link rel="stylesheet" type="text/css" href="a3.css" />
+</head>
+<body>
+    <h1 class="blue">Diksha Tukaram Satpute</h1>
+    <h3 class="blue">Student id: 01703065 </h3>
+    <h3 id="course">Data Visualization (DSC 530/CIS 602-01) </h3>
+    <h3 id="assn2">Assignment 3</h3>
+    <p>This assignment is all my own work. I did not copy or rewrite the code from any other source except the code given in the assignment</p>
+    <p> I used the jQuery library for calling function on selecting drop-down option</p>
+    <h1>MA District Map</h1>
+    <!--<p id="map"> </p>-->
+   
+    <div id="map1"> </div>
+    
+
+    <h1>MA District Spending</h1>
+    <h1>Total per-pupil spending for local public schools </h1>
+    <div id="map-local"></div>
+    <h1>Total per-pupil spending for regional public schools </h1>
+    <div id="map-regional"></div>
+    <h1>MA Overlay</h1>
+    <div id="map-overlay">   
+        <div>           
+           
+                <div >                   
+                    
+                        <select name="dropdown" id="Ed" data-placeholder="Select the type" style="width: 30%">
+                            <option selected>--Select--</option>
+                            <option value="local"> Local </option>
+                            <option value="regional"> Regional   </option>                            
+                        </select>
+                   
+                </div>
+            
+<br />
+            <br />
+        </div>
+
+
+    </div>
+    <div id="map"></div>
+</body>
+
+</html>
+<script src="a3.js"></script>
